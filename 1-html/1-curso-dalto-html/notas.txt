@@ -1,0 +1,6 @@
+**Se puede separar el curso en varios archivos html para que quede mas prolijo
+ej: 1-etiquetas.html;
+    2-esctructura.html;
+    3-listas, etc....
+	
+	

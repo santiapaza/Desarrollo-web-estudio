@@ -1,0 +1,66 @@
+* {
+}
+
+body {
+	text-align: center;
+	background: grey;
+}
+
+header {
+		border: 1px solid black;
+		background: yellow;
+		padding-left: 20px;
+}
+
+header h1, h2 {
+	text-align: left;
+	font: bold 20px sans-serif;
+}
+
+nav {
+		border: 1px solid black;
+		background: lightgreen;
+		text-align: left;
+}
+
+nav li {
+	font: bold 14px verdana;
+	list-style: none;
+	display: inline-block;
+}
+
+main {
+		border: 1px solid black;
+		width: 1000px;
+		background: yellow;
+}
+
+
+.section {
+		border: 1px solid black;
+		margin-bottom: 10px;
+		float: left;
+}
+
+article	{
+	border: 1px solid black;
+	margin-bottom: 10px;
+	background: pink;
+}
+
+aside {
+	border: 1px solid black;
+	width: 250px;
+	float: left;
+}
+
+aside li {
+	list-style: none;
+}
+
+#pie {
+	background: yellow;
+	border: 1px solid black;
+	text-align: center;
+	clear: both;
+}

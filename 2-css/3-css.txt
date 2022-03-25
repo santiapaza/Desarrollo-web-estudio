@@ -1,0 +1,104 @@
+	CSS
+
+- Cascading style sheets
+- Sirve para dar estilo a la pagina
+
+
+	REGLAS
+
+- 1 atributo (o propiedad) y 1 valor(o más):
+	ej: color: red
+- != atribiutos pueden recibir != valores:
+	ej: color -> colores;
+	    medida -> px, otros
+	    borde -> color, ancho, tipo de linea
+
+
+	FORMAS DE USAR CSS
+
+- Atributo "Style": La más simple, se el da reglas a cada Tag del Html. 
+		  En desuso, evitar.
+
+- Tag <style/>: Va en el 'head' del html, aquí agrupamos todas las reglas para q apliquen en los tags.
+ 
+- Tag <link rel="stylsheet" href="styles.css"/>: Definimos reglas en un archivo separado, que lo importamos con este tag. Podemos importar el mismo css a != archivos html.  
+
+
+	SELECTORES
+
+- Id: Se aplica 1 sola vez en el documento, para 1 elemento en particular. ej: id='divId'. 
+- Class: A un grupo de elementos que lleven el mismo nombre de la class: Ej class='divClass'--> divClass aplicara a todos los que tengan ese nombre.
+- de Tipo: Aplicará a todos los elementos que del mismo tipo. Ej: <h2> --> todos los textos de <h2> aplicaran el estilo q le demos.
+- Universal: aplica a todo el html. se escribe con "*"
+
+
+	BOX MODEL
+
+- Son las cajas de los elementos de html y cómo se representan en el browser.
+- Sus lados se escriben en ingles: Top, botton, left, right. Se pueden aplicar reglas a un lado especifico.
+- Partes (de afuera hacia adentro):
+* Margin: separa el elemento de otros elementos (espacio entre cajas).
+* Border: borde. Se puede cambiar el tamaño, color etc.
+* Padding: espacio entre el borde y el contenido de la caja.
+* Content: el contenido de la caja. Ej: el texto de un h1
+
+	HEIGHT Y WIDTH (alto y ancho)
+
+- Se puede aplicar a cajas (y a algun lado en especifico) como a un div: div {margin top height: 20px} 
+- A imagenes: img { width: 60px}
+
+	BACKGRUOND
+
+- Fondo de un box: puede ser un color o una imagen insertada.
+
+
+--------------------------------------*----------------------------------
+
+	DISPLAY
+
+- Para controlar estructuras.
+- Cada elemento tiene un valor display por defecto: 'block', 'in-line', o 'none';
+ * Block x defecto: div, p, form, header, footer, section, h,
+ * In-line x defecto: span, a, img, 
+ * None x defecto: script (Js)
+
+- Hay otros, revisar: inline-block, flex, table, list-item, ...
+
+
+	OCULTAR ELEMENTOS
+
+- Display none ---> elemento desaparece sin dejar rastros.
+- Visibility hidden ---> invisible, pero todavia ocupa lugar en la pagina.
+
+------------------------------------*----------------------------------
+
+	Propiedad POSITION
+
+- static: valor por defecto. No posicionado en ninguna forma en particular
+- relative: para agregarle propiedades (sino queda = como static) --> top, botton, etc..
+- fixed: fijo. No se mueve al escrolear la pagina. 
+- absolute: Se posiciona en relaciona a su ancestro mas cercano. X ejemplo una section con 'absolute', se va a posicionar en relacion a su caja q lo contiene, x ejemplo esta section esta dentro de un div, entonces se posiciona en relacion a esta caja 'padre'.
+
+
+	Propiedad FLOAT
+
+- Investigar,  y ver si sige vigente o esta obsoleta.
+
+	Propiedad CLEAR
+
+- Relacionada con el float, para despejar y ordenar. investigar
+
+
+-------------------------------------*-----------------------------	
+
+
+
+---------------*------------------------------------------------
+
+
+
+
+
+
+
+ 

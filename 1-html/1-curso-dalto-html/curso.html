@@ -1,0 +1,613 @@
+							<!-- TIPOS DE ETIQUETAS -->
+<etiqueta atributo="valor"></etiqueta>
+<!-- Button es un tipo de etiqueta; luego tiene varios atributos con sus valores -->
+<button color="rojo" tamaño="grande" borde="negros"></button>
+
+<!-- Hay etiquetas que ABREN Y CIERRAN Y otras solo CIERRAN -->
+<!-- br es para un salto de línea, No se cierra -->
+<br> 
+<!-- h1(títulos) se abre y cierra -->
+<h1></h1>
+
+<!-- HTML esctuctura. Poner "!"+Enter y lo completa solo en VSC  -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Ahí dentro se hace TODO -->
+
+<!-- BODY, lo que se puede ver -->
+<!-- HEAD, lo q NO se puede ver -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- title: de la pestaña -->
+	<title>Primera página Web</title>
+</head>
+<body>
+	<!-- Título EN la Pág -->
+	<!-- H1 no se duplica, es el + importante, posiciona en google (seo) p búsquedas -->
+	<h1>Hola Mundo</h1>
+	<!-- h1 hasta h6 van por JERARQUÍA, importancia de los títulos -->
+	<!-- los demas h se pueden duplicar en relacion con su jerarquía -->
+	<h2>Hola Mundo</h2>
+	<!-- P/agilizar borrado n° presionamos control en el marcador(al lado del 2) luego nos vamos al otro 2 y
+		 luego borramos y bajamos(Pra Sibelius) , averiguar para VSC -->
+	<h2>Hola Mundo</h2>
+	<h3>Hola Mundo</h3>
+	<h4>Hola Mundo</h4>
+	<h5>Hola Mundo</h5>
+	<h6>Hola Mundo</h6>
+	<!-- h7 en adelante no existe -->
+
+	<!-- <p> parrafo, escribir "lorem+TAB" aparece texto generico -->
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<!-- En Negrita -->
+	<b>Negrita</b>
+	<!-- Cursiva  -->
+	<i>italica</i>
+	<!--strike: tachada-->
+	<br>
+	<strike>tachada</strike>
+	<!-- Letra + pequeña -->
+	<small>Chiquita</small>
+	<!-- Hay etiquetas q completan la línea como H1 y otras q se adaptan al tamaño de su contenido: ver que b,i,strike,chiquita,
+		 salen una al lado de la otra, no completan una línea entera, para eso puse un br y salto la linea -->
+
+	<!-- Div para dividir Pagina; dentro de este el H1 x ejemplo se ajusta a su tamaño, y ya no completa la linea hasta el 
+		final de la pag, sino complta la linea segun el tamaño del Div-->
+	<!-- Con F12 vemos el tamaño de las cajas	 -->
+	<div>
+		<h3>Texto</h3>
+	</div>
+
+											<!-- ENLACES,VÍNCULOS  -->
+	<a href="">Click Aquí</a>
+	<!-- Local: en nuestra carpeta -->
+	<a href="pag2.html">Enlace local</a>
+	<!-- Local en otra carpeta: con "/": nuevacarpeta/index.htmñ -->
+	<a href="enlaces/enlace.html">enlace local en otra carpeta</a>
+		<!-- volver a la carpeta anterior: con ../ -->
+
+	<!-- Externo: con protocolo https:// -->
+	<a href="https://facebook.com">Enlace externo</a>
+	<!-- http tambien se puede usar pero es menos seguro que httpS -->
+	<!-- Para ir a pestaña nueva: target="_BLANK" -->	
+	<a href="https://google.com" target="_BLANK">A otra pestaña</a> 
+	
+</body>
+</html>
+
+
+						<!-- Etiquetas dentro de otras. LISTAS -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PagWeb</title>
+</head>
+<body>
+
+	<h1>Title</h1>
+	<h2>SubTitle</h2>
+	<p>
+		Este seria el <b>ejemplo</b> de la primer <i>pagina web</i> creada, y donde voy a poner
+		y agregar algunas <b>etiquetas</b> para practicar lo aprendido.<br>Haz <a href="https://google.com">click aqui</a> pa mas informacion de la buena.
+	</p>
+
+											<!-- LISTAS: -->
+	<!-- Desordenadas -->
+	<ul></ul>
+	<!-- Ordenadas -->
+	<ol></ol>
+	<!-- Elementos dentro de listas -->
+	<li></li>
+
+	<h2>Lista compra desordenada</h2>
+	<ul>
+		<li>Pan</li>
+		<li>Leche</li>
+		<li>Coca</li>
+	</ul>
+
+		<h2>Lista compra ordenada</h2>
+	<ol>
+		<li>Pan</li>
+		<li>Leche</li>
+		<li>Coca</li>
+	</ol>
+</body>
+</html>
+				
+									<!-- MULTIMEDIA -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MULTIMEDIA</title>
+</head>
+<body>
+	<h1>Primera imagen en html</h1>
+	<p>
+		Aquí van las <b>imagenes</b>:<br>
+		<!-- Imagen Externa-->
+		<!-- en google buscamos img, luego clic derecho 'inspeccionar' y luego buscamos direccion en img src"" doble clic y copiamos -->
+		Imagen externa: <br><img src="https://www.hola.com/imagenes/estar-bien/20190820147813/razas-perros-pequenos-parecen-grandes/0-711-550/razas-perro-pequenos-grandes-a.jpg?filter=w500"> <br> 
+		<!-- AL ser externa, esta en una carpeta, si se elimina de esa carpeta o pag web yo no puedo mostrar la img -->
+
+
+		<!-- Imagen Local: en carpeta local = a vinculos -->
+		Imagen local: <br><img src="../4. multimedia/perrito.jpg" width="50px" height="50px"> <br>
+		<!-- ATriutos Width=ancho, Height=alto. Solo se pone 1 atrb porque de lo contrario la imagen se distorsiona; o poner igual h=200px y w=200px -->
+		<!-- ALTURA Y ANCHURA NO SE USAN EN html, luego se hace con CSS, y ya viene modificado en html luego no se puede cambiar en css -->
+
+		<!-- VIDEO Y AUDIO. Siempre agregand atributo 'controls' que crea x defecto botones de reproduccion -->
+		Video: <br><video src="../4. multimedia/memeperros.mp4" controls></video>
+		<audio src="../4. multimedia/memeperros.mp4" controls></audio>
+		</p>
+
+		<!-- DIV: separar dividir contenido -->
+		<div>
+			<h2>Subtitulo</h2>
+			<p>
+				Texto de <b>ejemplo</b>
+			</p>
+		</div>
+</body>
+</html>
+
+									<!-- FORMULARIOS -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios</title>
+</head>
+<body>
+<!-- FORMULARIOS: se agrega atrib 'input' -->
+		<form>
+			<!-- cada type tiene funcion != -->
+			<input type="text" name="email">
+			<!-- se escribe en pasword **** -->
+			<input type="password" name="">
+			<input type="number" name="">
+			<!-- no se envia el formulario hasta poner bien un mail con @ -->
+			<input type="email" name="">
+			<!-- muestra la paleta de colores para elegir -->
+			<input type="color">
+			<!-- rango de algo y se ponen limites min max -->
+			<input type="range" min="10" max="100">
+			<!-- para poner fecha -->
+			<input type="date">
+			<!-- hora -->
+			<input type="time">
+			<!-- se usa con Value para q se muestre -->
+			<input type="buttom" value="boton">
+			<!-- submit=entrega: Para enviar -->
+			<input type="submit">
+
+			<!-- Required: hay q completar para enviar -->
+			<input type="text" name="nombre" required>
+			<!-- se escribe en pasword **** -->
+			<input type="password" name="" required>
+
+			<!-- Textarea: un campo q podemos modificar en la pag -->
+			<!-- readonly es para solo lectura, no se puede modificar -->
+			<textarea readonly>Hola man!</textarea>
+
+			<!-- lo que escribimos, rellenamos tiene un valor(value) -->
+			<input type="text" value="Titi crack">
+
+		</form>
+</body>
+</html>
+		
+							<!-- METADATOS. en Head, no se ve -->
+<!-- Info q describe datos o info de otros objetos. Dato:video yout, metad: descripcion,etiquetas,titulo -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- El meta charset(se pone por defecto) lo q hace es leer los tildes y caracteres en un lenguaje universal, 
+		de lo contrario se escribe con caracteres raros. -->
+	<meta charset="utf-8">
+	<title>Metadatos. Ejemplo tílde</title>
+
+	<!-- 'keywords' y 'description': p/ seo, posicionamientos y busquedas) -->
+	<meta name="keywords" content="leche,harina,huevo,galleta">
+	<meta name="description" content="Alimentos S.A es una compañia destinada a brindar los mejores alimentos en tiempo y forma">
+	<!-- 'author':de la pagina; 'copyright':si la marca-empresa esta registrada -->
+	<meta name="author" content="Titi">
+	<meta name="copyright" content="Facebook Inc.">
+	<!-- 'robots'=index/noindex: ver si es indexada(perteneciente a un indice). En caso de qe NO, no se muestra en busquedas,
+		 para paginas ocultas; robots=follow/nofollow: algo parecido, se ve mas adelante -->
+	<meta name="robots" content="index">
+	<meta name="robots" content="noindex">
+	<meta name="robots" content="follow">
+	<meta name="robots" content="nofollow">
+</head>
+<body>
+	<h1>Ejemplo tílde</h1>
+
+</body>
+</html>
+
+							<!-- HTML SEMANTICO -->
+<!--Estructura de página legible, optima etcetera.  -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML semantico</title>
+</head>
+<body>
+	<!-- 'header'(encabezado): en la parte superior -->
+	<header>
+		<!-- 'nav'(navegacion) para mi cuenta, perfil, configuracion, etc(puede ir o no en encabezado) -->
+		<nav>
+			<!-- ponemos listas desordenadas co´n enlaces -->
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="micuenta.html">Mi cuenta</a></li>
+				<li><a href="nosotros.html">Sobre Nosotros</a></li>
+				<!-- Al cambiar de enlace en = pag, se pone copia y pega la estructura p q quede similar, p ej pag facebook -->
+			</ul>
+		</nav>
+	</header>
+	<h1>
+	Esta página es el Inicio
+	</h1>
+	<h2>
+		Nota: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</h2>
+</body>
+</html>
+<!-- MiCuenta(Pag2) -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Micuenta</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index2.html">Inicio</a></li>
+				<li><a href="micuenta.html">Mi cuenta</a></li>
+				<li><a href="nosotros.html">Sobre Nosotros</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>
+	MiCuenta
+	</h1>
+	<p>
+		Nombre: <b>Santiago</b><br>
+		Edad: <b>30</b><br>
+		Instagram: <b>santi.apaza</b><br>
+	</p>
+</body>
+</html>
+<!-- Sobre Nosotros(Pag3) -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SobreNosotros</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index2.html">Inicio</a></li>
+				<li><a href="micuenta.html">Mi cuenta</a></li>
+				<li><a href="nosotros.html">Sobre Nosotros</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>
+	Esta página es acerca de Nosotros
+	</h1>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+</body>
+</html>
+
+
+							<!-- SECTION-ARTICLE-ASIDE-FOOTER -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Section y Article</title>
+</head>
+<body>
+	<!-- ARticulo y section se usan para separar articulos secciones y partes de la pagina para q quede ordenado
+	este seria un ejemplo de como escribirlas semanticamente correcta cada etiqueta y su contenido -->
+	<article>
+		<section>
+			<h1>
+				Titulo de algo
+			</h1>
+			<h2>
+				Subtitulo menos relevante.
+			</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+	</article>
+	<!-- ASIDE: contenido secundario, en los costados gralmente -->
+	<aside>
+		<h2>Contenido extra</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</aside>
+	<!-- Con CSS quedan ubicados cada cajita en su lugar(encabezapo arriba, aside al costado, etc) -->
+
+	<!-- FOOTER: pie de pagina -->
+	<footer>
+		<h4>Copyright - Todos los derechos reservados</h4>
+		<p>Seguinos en nuestras <b>redes</b></p>
+		<ul>
+			<a href="instagram/Titi">Instagram</a>
+			<a href="Linkedin/Titi">Linkedin</a>
+		</ul>
+	</footer>
+</body>
+</html>
+
+						<!-- TABLAS  -->
+<!-- tienen COLUMNAS y FILAS -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TABLAS</title>
+</head>
+<body>
+	<!-- border: le da borde, ya NO SE USA, con CSS se lo personaliza mejor -->
+	<table border="1px">
+		<!-- 'tr': 1 fila -->
+		<tr>
+			<!-- 'td': contenido fila -->
+			<td><b>Nombre</b></td>
+			<td><b>Apellido</b></td>
+			<td><b>Edad</b></td>
+		</tr>
+		<tr>
+			<td>Titi</td>
+			<td>Apaza</td>
+			<td>30</td>
+		</tr>
+			<tr>
+			<td>Susana</td>
+			<td>Oria</td>
+			<td>104</td>
+		</tr>
+			<tr>
+			<td>Armando</td>
+			<td>Paredes</td>
+			<td>56</td>
+		</tr>
+	</table>
+</body>
+</html>
+
+
+				<!-- ALT-ID-ICONOS-CENTER -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ALT-ID-ICONOS-CENTER</title>
+	<!-- Icono: el q va en la pestaña de pag, al lado nombre, ej youtube -->
+	<!-- Se pone de la sigte manera, y con la img con ext '.ico'; se puede cambiar ext de una img pnj p ej -->
+	<link rel="icon" href="Multimedia/perro.ico">
+</head>
+<body>
+	<!-- ALT: imnportante para el SEO. En caso de no poder mostrar la img, se muestra el nombre q le dimos en ALT -->
+	<img src="Multimedia/perrito.jasdpg" alt="perrito fachero">
+	<!-- TITLE: Cuando ponemos el mouse encima nos muestra el titulo -->
+	<img src="Multimedia/perrito.jpg" alt="perrito fachero" title="DOG">
+
+	<!-- CENTER: centra el contenido (texto,multimedia,tablas). En tablas p los internos, dentro de <td> -->
+	<!-- NO SE RECOMIENDA USO DE CENTER. Se hace luego con CSS -->
+	<br><br>
+	<center>
+		<p>Hola gil</p>
+	</center>
+
+	<!-- Enlace p ir al FINAL DE PAGINA, para ir a n codigo(es un ejemplo) -->
+	<a href="#codigo">Ir al codigo</a>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<!-- ID(Identificador) para el h2, asi vinculamos el enlace -->
+	<h2 id="codigo">El codigo es: c9c6das87das67a8sd</h2>
+</body>
+</html>
+
+
+
+

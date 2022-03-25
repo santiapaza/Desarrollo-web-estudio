@@ -1,0 +1,123 @@
+/*Para quitar el margen y padding de TODO.*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	font-size: 20px;
+	/*Tipo de fuente:  Buscar fuentes genéricas, nada raro*/
+	font-family: sans-serif;
+	/*Peso:  negrita(bold), mas ligera, etc*/
+	font-weight: bold;
+}
+
+h2 {
+	/*Resumo las 3 reglas de arriba en una: */
+	font: bold 14px sans-serif;
+}
+
+/*Seleccionar mas de un elemento:  con ","*/
+header, section, footer, aside, nav, article, hgroup {
+	/*bordes: junto 3 reglas; Lo escribo en comentario xq queda feo: */
+	/*	border: 1px solid black;*/
+
+	/*Me aseguro q los elem. se muestren en blocke:  */
+	display: block;
+}
+
+body {
+	/*Alinear texto*/
+	text-align: center;
+	background: grey;
+}
+
+.agrupar {
+	width: 960px;
+	/*Para q ajuste automaticamente los margenes, y q quede centrado; le da 15 px al eje de las Y, y auto al eje de las X*/
+	border: 1px solid black;
+	margin: 15px auto;
+	/*Tambien se puede darle manualmente a lso costados, y ariba y abajo*/
+	/*	margin-top: 200px;   */
+	background: white;
+}
+
+.cabecera {
+	/*Busco codigo de color en la web*/
+	background: #54a0ff;
+	border: 1px solid #999999;
+	padding: 20px;
+}
+
+.cabecera h1 {
+	text-align: left;
+}
+
+.menu {
+	background: #feca57;
+	padding: 5px 15px;
+	text-align: left;
+}
+
+/*Estilizar los li especificos del menu:  */
+
+.menu li {
+	/*Para quitar estilo x defecto(borra los puntos asquerosos)*/
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana;
+	/*Para q quede en bloque PERO alineado uno al lado del otro*/
+	display: inline-block;
+}
+
+.seccion {
+	margin: 20px;
+	/*Ancho por porcentaje tambien; tengo q tener en cuenta los margenes y pading y el aside*/
+	width: 600px;
+	/*FLOAT: para q el bloque flote, se sale de la estructura de bloque 1 abajo del otro*/
+	float: left;
+}
+
+article {
+	background: #c8d6e5;
+	border: 1px solid #999;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+time {
+	color: #999;
+}
+
+article footer {
+	text-align: right;
+	margin-top: 20px;
+}
+
+.columna {
+	width: 300px;
+	margin: 20px 0;
+	float: left;
+}
+
+.columna blockquote {
+	border: 1px solid black;
+	padding: 40px;
+	background: #c8d6e5;
+	margin-bottom: 20px;
+}
+
+.pie {
+	/*CLEAR:BOTH para que ordene los FLOAT de arriba q me desordeno todo*/
+	clear: both;
+	padding: 20px;
+	background: #596275;
+	color: white;
+}
+
+img {
+	width: 200px;
+	display: block;
+	margin: 20px auto;
+}

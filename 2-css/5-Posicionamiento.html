@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>practica</title>
+	<style type="text/css">
+
+
+		#agrupar {
+			width: 1200px;
+			height: 800px;
+			border: 1px solid black;
+			background-color: gray;
+			margin: 50px auto;
+			position: relative;
+		}
+
+		.parent {
+			border: 2px black dotted;
+			display: inline-block;
+			position: absolute;
+
+			right: 400px;
+			top: 0;
+
+		}
+
+/*		.parent2 {
+			border: 2px black dotted;
+			display: inline-block;
+			margin: 100px 20px;
+			position: absolute;
+			top: 20px;
+			right: 20px;
+		}
+*/
+		.box {
+			display: inline-block;
+			background: yellow;
+			height: 100px;
+			width: 100px;
+			margin: 10px 40px;
+		}
+
+		#one {
+
+		}
+
+		#two {
+
+
+		}
+
+/*		#three {
+		position: absolute;
+			top: 20px;
+			right: 20px;
+			background: red;
+		}*/
+
+		#four {
+		/*	position: fixed;
+			top: 0;
+			right: 0;*/
+
+		}
+
+	</style>
+</head>
+
+<body>
+	<!-- Posicion: static, relative, absolute, fixed... Probar todas -->
+	<!-- P usar absolute, el padre debe tener pos distinta a static(x defecto), cambiarle al clas parent, pos:Relative -->
+
+	<div id="agrupar">
+
+		<div class="parent">
+			<div class="box" id="one">One</div>
+			<div class="box" id="two">Two</div>
+			<div class="box">Three</div>
+			<div class="box" id="four">Four</div>
+
+		</div>
+		
+<!-- 		<div class="parent2">
+			<div class="box">One</div>
+			<div class="box">Two</div>
+			<div class="box" id="three">Three</div>
+			<div class="box">Four</div>
+		</div> -->
+	</div>
+
+	
+
+</body>
+</html>

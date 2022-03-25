@@ -1,0 +1,32 @@
+	Estructura
+- Un buen uso y una buena estructura y orden, puede generar mejor posicionamiento en el SEO.
+
+
+- Header: encabezado
+- Nav: Barra de navegacion, puede ir o no en el encabezado
+- Main: EL contenido principal. Aqui podemos eponer sections, articulos etc
+- Aside: Contenido secundario. Generalmente a un costado.
+- Footer: Pie de página
+
+
+
+-----------------------------------------*----------------------------------------
+
+	Section vs Article vs Div
+
+- Poseen la misma funcion: agrupar contenido. Son cajas, contenedores.
+- Section puede ir dentro o fuera de Article. 
+
+*Section:
+	- Cabeceras h1,h2,..main,etc, con sentido.
+	- Contenido con sentido, x ej un blog de recetas.
+	- No funcionaría en otra página, tiene sentido y logica solo para su pagina especifica.
+
+*Article:
+	- Lo mismo de arriba, pero funciona independientemente del sitio web.
+	-  O sea, se podría usar y tener sentido en otros sitios.
+
+*Div:
+	- Para todo lo demás.
+
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- lang 'es': español -->
+<html lang="es"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Primera Pagina Web</title>
+	<!-- Meta para descripcion, autor, keywords etc, para el SEO -->
+	<meta name="description" content="Primera pagina web del curso de Fatz" />
+	<meta name="author" content="Titi" />
+	<meta name="keywords" content="Primer sitio, primer página, blog" />
+	<!-- Etiqueta Style: != formas de aplicar reglas -->
+	<style>
+				/*Selector universal*/
+		* {
+			/*Para quitar espaciados,margenes, etc. No es lo más tipico pero se puede usar con cuidado*/
+		}
+		/*Por tipo de etiqueta:  Afecta a todas las mismas etiquetas*/
+		header{
+			background: black;
+			color: white;
+		}
+		/*Por ID, selecciona el ÚNICO ID q con este nombre (1 solo)*/
+		#navegacion {
+			background: red;
+			color: white;
+		}
+		/*Por clase:  afecta a todos los q tengan la = class*/
+		.green {
+			background: green;
+		}
+		/*Por atributo: ELemento[Atributo]: Todos los Elem. q tengan el atributo en particular*/
+		blockquote[cite] {
+			background: orange;
+		}
+	</style>
+</head>
+	<!-- Atributo style en 1 elemento style="background: aqua" en h1 o header; Pero no se usa, es la forma mas primitiva de CSS -->
+<body>
+	<header>
+		<h1>Mi blog</h1>
+	</header>
+	<!-- agrego id para aplicar reglas-->
+	<nav id="navegacion">
+		<!-- Este seria el menú, que despues queda horizontal con CSS -->
+		<ul>
+			<li>Principal</li>
+			<li>Ayuda</li>
+			<li>Contactos</li>
+		</ul>
+	</nav>
+
+	<!-- Acá van a ir los artículos (dentro de section que sería como el cuerpo del a pag) -->
+	<section>
+		<article>
+			<!-- hgruop para quitarle jerarquia a los h1yh2 xq el titulo ppal ya es h1 -->
+			<hgroup>
+				<h1>Primer articulo</h1>
+				<h2 class="green">Subtitulo</h2>
+			</hgroup>
+			<!-- Time para la fecha con un atributo "datetime" dentro -->
+			<time datetime="24-01-2022">Publicado el 24-01-2022</time>
+			<!-- En este parrafo pongo entiquetas para omdificar el texto -->
+			<p class="green">Lorem ipsum <cite>dolor sit amet</cite>, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore <small>et dolore magna aliqua. Ut enim ad minim veniam,</small>
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<!-- Imagen -->
+			<img src="../HTML/Multimedia/perrito.jpg">
+			<!-- Pie de pág. del artíuculo -->
+			<footer>
+				<p>Comentarios (0)</p>
+			</footer>
+			<!-- Enlace: además agrega Tag "adress" -->
+			<address>
+				<a href="https://google.com" target="_blank_">Visita Google</a>
+			</address>
+		</article>
+
+		<article>
+			<hgroup>
+				<h1>Segundo articulo</h1>
+				<h2>Subtitulo</h2>
+			</hgroup>
+			<time datetime="24-01-2022">Publicado el 24-01-2022</time>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<footer>
+				<p>Comentarios (10)</p>
+			</footer>
+		</article>
+	</section>
+
+	<aside>
+		<!-- Ponemos citas de autores, de libros o sitiosWeb -->
+		<blockquote>
+			Cita 1
+		</blockquote>
+		<!-- Aquí le ponemos un atributo para el link del sitioweb -->
+		<blockquote cite="https://facebook.com/Titi">
+			Cita2
+		</blockquote>
+		
+	</aside>
+
+	<!-- Pie de pág. de la página -->
+	<footer>
+		Derechos reservados 2020-2022
+	</footer>
+
+</body>
+</html>
